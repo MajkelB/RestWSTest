@@ -1,0 +1,15 @@
+# GENERATION
+
+mvn archetype:generate -DgroupId=mb.test -DartifactId=RestWSTest -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.3 -DinteractiveMode=false
+
+# GIT START
+
+git init
+git add info.txt
+git commit -m "first commit"
+git remote add origin https://github.com/MajkelB/RestWSTest.git
+git push -u origin master
+
+
+
+
